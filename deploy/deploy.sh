@@ -2,7 +2,7 @@ systemctl stop nginx
 
 cd nginx
 git pull
-mv -v * /var/www/html
+cp -r * /var/www/html
 
 systemctl start nginx
 
